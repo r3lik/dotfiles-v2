@@ -1,0 +1,13 @@
+# Enable the quick terminal (overlay)
+#quick-terminal-screen = main          # main, mouse, or a specific screen
+quick-terminal-animation-duration = 0.2
+quick-terminal-position = center
+
+# Bind a key to toggle it
+keybind = global:opt+grave_accent=toggle_quick_terminal
+
+# Theme
+#theme = Afterglow
+#theme = Duskfox
+#theme = Catppuccin Frappe
+theme = Electron Highlighter

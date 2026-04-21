@@ -1,0 +1,88 @@
+{
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.fontSize": 14,
+    "editor.bracketPairColorization.enabled": true,
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "git.confirmSync": false,
+    "files.insertFinalNewline": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.enableSmartCommit": true,
+    "go.useLanguageServer": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.profiles.osx": {
+    "fish": {
+        "path": "/opt/homebrew/bin/fish"
+    }
+    },
+    "terminal.external.osxExec": "Ghostty.app",
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.experimentalLinkProvider": false,
+    "terminal.integrated.rendererType": "auto",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.colorCustomizations": {
+        //"tab.activeBorder": "#d33682",
+        "tab.unfocusedActiveBorder": "#000000",
+        //"list.inactiveSelectionBackground": "#d33682"
+    },
+    "workbench.colorTheme": "Electron Highlighter",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "terminal.integrated.tabs.enabled": true,
+    "rust-analyzer.inlayHints.enable": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "hardhat.telemetry": true,
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "solidity.telemetry": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "lldb.suppressUpdateNotifications": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "git.ignoreRebaseWarning": true,
+    "explorer.confirmDragAndDrop": false,
+    "makefile.configureOnOpen": true,
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "editor.fontFamily": "Jetbrains Mono",
+    "files.associations": {
+        "Dockerfile_gha": "dockerfile",
+        "*.template": "shellscript"
+    },
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true,
+}
